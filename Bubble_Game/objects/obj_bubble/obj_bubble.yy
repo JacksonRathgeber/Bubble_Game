@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_bubble",
   "spriteId": {
-    "name": "spr_bigger",
-    "path": "sprites/spr_bigger/spr_bigger.yy",
+    "name": "spr_bubble",
+    "path": "sprites/spr_bubble/spr_bubble.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,6 +33,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

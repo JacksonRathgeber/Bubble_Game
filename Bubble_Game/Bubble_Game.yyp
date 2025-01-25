@@ -5,11 +5,9 @@
   "resources": [
     {"id":{"name":"spr_flour","path":"sprites/spr_flour/spr_flour.yy",},"order":3,},
     {"id":{"name":"obj_bubble","path":"objects/obj_bubble/obj_bubble.yy",},"order":0,},
-    {"id":{"name":"obj_top_border","path":"objects/obj_top_border/obj_top_border.yy",},"order":2,},
     {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},"order":1,},
     {"id":{"name":"spr_ingredient","path":"sprites/spr_ingredient/spr_ingredient.yy",},"order":2,},
-    {"id":{"name":"spr_bubble","path":"sprites/spr_bubble/spr_bubble.yy",},"order":0,},
-    {"id":{"name":"spr_bigger","path":"sprites/spr_bigger/spr_bigger.yy",},"order":6,},
+    {"id":{"name":"spr_bubble","path":"sprites/spr_bubble/spr_bubble.yy",},"order":6,},
     {"id":{"name":"Bubble_States","path":"scripts/Bubble_States/Bubble_States.yy",},"order":0,},
     {"id":{"name":"spr_geyser","path":"sprites/spr_geyser/spr_geyser.yy",},"order":5,},
     {"id":{"name":"obj_geyser","path":"objects/obj_geyser/obj_geyser.yy",},"order":7,},
