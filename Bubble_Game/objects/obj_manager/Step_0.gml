@@ -1,8 +1,9 @@
 /// @description
 
-// Test: Create bubbles with spacebar
-if (keyboard_check_pressed(vk_space)){
+bubble_spawn_tick ++;
+if (bubble_spawn_tick>=bubble_spawn_timer){
 	newBubble();
+	bubble_spawn_tick = 0;
 }
 
 
