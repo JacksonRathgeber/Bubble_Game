@@ -1,9 +1,8 @@
 function Bubble_Free(){
 	
-	// bounce off ceiling
-	if (y<sprite_height/2){
-		y = sprite_height/2 + 1;
-		yVel /= -2;
+	// destroy when off screen
+	if (y<-sprite_height/2){
+		instance_destroy();
 	}
 	
 	if (x<sprite_width/2){
