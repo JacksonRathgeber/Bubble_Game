@@ -49,9 +49,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_fishing","path":"rooms/rm_fishing/rm_fishing.yy",},},
     {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
-    {"roomId":{"name":"rm_fishing","path":"rooms/rm_fishing/rm_fishing.yy",},},
     {"roomId":{"name":"rm_fishing_test","path":"rooms/rm_fishing_test/rm_fishing_test.yy",},},
   ],
   "Folders": [
@@ -80,6 +80,6 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Paybread-e91mn.otf","CopyToMask":3035426170322551022,"filePath":"datafiles",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.0.3.85",
+    "IDEVersion": "2022.0.2.51",
   },
 }

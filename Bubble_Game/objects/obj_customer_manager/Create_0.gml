@@ -23,7 +23,7 @@ for (var i = 0; i < number_of_customer_1s; i += 1)
 	ds_list_add(future_customers, current_instance)
 	with (current_instance)
 	{
-		ds_list_add(request, irandom(2))
+		ds_list_add(request, irandom_range(0, 5))
 	}
 }
 
@@ -33,8 +33,8 @@ for (var i = 0; i < number_of_customer_2s; i += 1)
 	ds_list_add(future_customers, current_instance)
 	with (current_instance)
 	{
-		ds_list_add(request, irandom(2))
-		ds_list_add(request, irandom(2))
+		ds_list_add(request, irandom_range(0, 5))
+		ds_list_add(request, irandom_range(0, 5))
 	}
 }
 
@@ -56,12 +56,12 @@ function customer_reset()
 			ds_list_clear(request)
 			if (customer_type = 1)
 			{
-				ds_list_add(request, irandom(2))
+				ds_list_add(request, irandom_range(0, 5))
 			}
 			else if (customer_type = 2)
 			{
-				ds_list_add(request, irandom(2))
-				ds_list_add(request, irandom(2))
+				ds_list_add(request, irandom_range(0, 5))
+				ds_list_add(request, irandom_range(0, 5))
 			}
 		}
 		ds_list_add(future_customers, current_customer)

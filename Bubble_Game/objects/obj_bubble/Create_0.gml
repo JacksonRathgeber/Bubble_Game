@@ -15,6 +15,8 @@ bounce_damp = 0.025;
 
 radius = obj_manager.mouse_radius;
 
+color = color
+
 alarm[0] = 1800;
 
 /* Next objectives: 

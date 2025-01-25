@@ -7,6 +7,8 @@ active = false
 array_position = noone
 
 
+timer = 0
+time_limit = (30 + random_range(-5, 5)) * 60
 
 
 function request_complete()
@@ -17,5 +19,18 @@ function request_complete()
 	active = false
 	x = -500
 	y = -500
+	timer = 0
+	array_position = noone
+}
+
+function request_fail()
+{
+	//punishment
+	ds_list_add(obj_customer_manager.past_customers, id)
+	array_set(obj_customer_manager.active_customers, array_position, noone)
+	active = false
+	x = -500
+	y = -500
+	timer = 0
 	array_position = noone
 }
