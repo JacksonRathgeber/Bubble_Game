@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_flour",
+  "name": "obj_algae",
   "spriteId": {
-    "name": "spr_flour",
-    "path": "sprites/spr_flour/spr_flour.yy",
+    "name": "spr_algae",
+    "path": "sprites/spr_algae/spr_algae.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,5 +33,6 @@
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
+
   },
 }
