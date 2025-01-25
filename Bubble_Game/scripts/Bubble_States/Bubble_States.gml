@@ -24,7 +24,10 @@ function Bubble_Free(){
 	
 	if (mouse_check_button_pressed(mb_left) && point_distance(x,y,mouse_x,mouse_y)<radius){
 		state = Bubble_Selected;
+		//Play a "tractor beam" sound when selecting bubbles
+		audio_play_sound(Pulling_Sound, 0,true,.2,0,1.2);
 	}
+	
 }
 
 function Bubble_Selected(){
@@ -37,6 +40,9 @@ function Bubble_Selected(){
 	yVel += abs(mouse_y - y) * -0.01 * sign(mouse_y - y);
 	
 	if (mouse_check_button_released(mb_left)){
+		//"Tractor Beam" sound stops when bubbles aren't selected
+		audio_stop_sound(Pulling_Sound);
+		
 		state = Bubble_Free;
 		//yVel = 0;
 	}
