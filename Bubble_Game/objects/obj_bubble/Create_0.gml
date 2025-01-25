@@ -15,6 +15,8 @@ radius = obj_manager.mouse_radius;
 selected = false
 color = color
 
+counter = 0
+
 alarm[0] = 1800;
 
 image_xscale = 0.4;
