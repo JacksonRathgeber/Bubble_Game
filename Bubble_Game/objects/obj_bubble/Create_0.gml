@@ -8,9 +8,6 @@ xVel = 0;
 
 state = Bubble_Free;
 
-dormant_timer = 480;
-dormant_count = 0;
-
 bounce_damp = 0.025;
 
 radius = obj_manager.mouse_radius;

@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_kelp",
+  "name": "obj_plankton",
   "spriteId": {
-    "name": "spr_kelp",
-    "path": "sprites/spr_kelp/spr_kelp.yy",
+    "name": "spr_plankton",
+    "path": "sprites/spr_plankton/spr_plankton.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"ingredient_ind","path":"objects/par_ingredient/par_ingredient.yy",},"objectId":{"name":"par_ingredient","path":"objects/par_ingredient/par_ingredient.yy",},"value":"3",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"ingredient_ind","path":"objects/par_ingredient/par_ingredient.yy",},"objectId":{"name":"par_ingredient","path":"objects/par_ingredient/par_ingredient.yy",},"value":"2",},
   ],
   "parent": {
     "name": "Ingredient Objects",

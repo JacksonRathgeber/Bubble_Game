@@ -10,7 +10,7 @@ colors = [c_red, c_fuchsia, c_yellow, c_green, c_white, c_dkgray];
 
 ingredients = ["algae", "coral", "plankton", "kelp", "pearl", "plastic"];
 
-bubble_spawn_timer = 100;
+bubble_spawn_timer = 50;
 bubble_spawn_tick = 0;
 
 function newBubble(){
