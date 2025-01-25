@@ -1,8 +1,8 @@
 /// @description
 
-yVel = random_range(0.05,0.25);
-accel = random_range(0.025,0.05);
-maxVel = 6;
+yVel = random_range(0.05,0.5);
+accel = random_range(0.05,0.1);
+maxVel = 20;
 
 xVel = 0;
 
@@ -14,6 +14,8 @@ dormant_count = 0;
 bounce_damp = 0.025;
 
 radius = obj_manager.mouse_radius;
+
+selected = false
 
 alarm[0] = 1800;
 
