@@ -34,7 +34,6 @@
     {"id":{"name":"Bubble_Formed","path":"sounds/Bubble_Formed/Bubble_Formed.yy",},"order":4,},
     {"id":{"name":"Deep_Water_Ambience","path":"sounds/Deep_Water_Ambience/Deep_Water_Ambience.yy",},"order":2,},
     {"id":{"name":"Main_Music","path":"sounds/Main_Music/Main_Music.yy",},"order":0,},
-    {"id":{"name":"par_ingredient","path":"objects/par_ingredient/par_ingredient.yy",},"order":3,},
     {"id":{"name":"Greeting3","path":"sounds/Greeting3/Greeting3.yy",},"order":7,},
     {"id":{"name":"spr_startButton","path":"sprites/spr_startButton/spr_startButton.yy",},"order":0,},
     {"id":{"name":"spr_starfish","path":"sprites/spr_starfish/spr_starfish.yy",},"order":1,},
