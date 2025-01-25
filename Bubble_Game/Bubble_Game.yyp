@@ -80,8 +80,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_fishing","path":"rooms/rm_fishing/rm_fishing.yy",},},
     {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
+    {"roomId":{"name":"rm_fishing","path":"rooms/rm_fishing/rm_fishing.yy",},},
     {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"roomId":{"name":"rm_fishing_test","path":"rooms/rm_fishing_test/rm_fishing_test.yy",},},
   ],
