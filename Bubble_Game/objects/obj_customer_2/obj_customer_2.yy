@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_customer_2",
   "spriteId": {
-    "name": "spr_customer_2",
-    "path": "sprites/spr_customer_2/spr_customer_2.yy",
+    "name": "spr_seahorse",
+    "path": "sprites/spr_seahorse/spr_seahorse.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,7 +33,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Customers",
+    "path": "folders/Objects/Customers.yy",
   },
 }

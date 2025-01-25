@@ -4,17 +4,14 @@ if (ds_list_size(future_customers) = 0)
 }
 
 
+empty_slot = noone
 
 for (i = 0; i < active_customer_max; i += 1)
 {
-	if (array_get(active_customers, i) = noone)
+	if (array_get(active_customers, i) == noone)
 	{
 		empty_slot = i
 		break
-	}
-	else 
-	{
-		empty_slot = noone
 	}
 }
 
@@ -29,9 +26,9 @@ if (empty_slot != noone)
 		
 		time_since_spawn = 0
 		var added_customer = ds_list_find_value(future_customers, 0)
-		array_insert(active_customers, empty_slot, added_customer)
-		
+		active_customers[empty_slot] = added_customer
 		ds_list_delete(future_customers, 0)
+		
 		with (added_customer)
 		{
 			active = true

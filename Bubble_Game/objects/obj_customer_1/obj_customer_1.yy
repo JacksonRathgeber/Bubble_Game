@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_customer_1",
   "spriteId": {
-    "name": "spr_customer_1",
-    "path": "sprites/spr_customer_1/spr_customer_1.yy",
+    "name": "spr_jellyfish",
+    "path": "sprites/spr_jellyfish/spr_jellyfish.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,7 +33,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Customers",
+    "path": "folders/Objects/Customers.yy",
   },
 }
