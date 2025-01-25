@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Temp Ingredients",
-    "path": "folders/Objects/Temp Ingredients.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
 }
