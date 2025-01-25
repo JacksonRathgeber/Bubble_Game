@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_milk",
+  "name": "obj_algae",
   "spriteId": {
-    "name": "spr_milk",
-    "path": "sprites/spr_milk/spr_milk.yy",
+    "name": "spr_algae",
+    "path": "sprites/spr_algae/spr_algae.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Temp Ingredients",
-    "path": "folders/Objects/Temp Ingredients.yy",
+    "name": "Ingredient Objects",
+    "path": "folders/Objects/Ingredient Objects.yy",
   },
 }

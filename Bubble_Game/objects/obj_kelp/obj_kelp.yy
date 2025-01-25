@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_flour",
+  "name": "obj_kelp",
   "spriteId": {
-    "name": "spr_flour",
-    "path": "sprites/spr_flour/spr_flour.yy",
+    "name": "spr_kelp",
+    "path": "sprites/spr_kelp/spr_kelp.yy",
   },
   "solid": false,
   "visible": true,
@@ -29,9 +29,11 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"ingredient_ind","path":"objects/par_ingredient/par_ingredient.yy",},"objectId":{"name":"par_ingredient","path":"objects/par_ingredient/par_ingredient.yy",},"value":"3",},
+  ],
   "parent": {
-    "name": "Temp Ingredients",
-    "path": "folders/Objects/Temp Ingredients.yy",
+    "name": "Ingredient Objects",
+    "path": "folders/Objects/Ingredient Objects.yy",
   },
 }
