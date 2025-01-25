@@ -10,12 +10,18 @@ empty_slot = noone
 
 
 time_since_spawn = 0
-spawn_rate = 90
+spawn_rate = 2
 
 
 number_of_customer_1s = 8
 
 number_of_customer_2s = 10
+
+number_of_customer_3s = 10
+
+number_of_customer_4s = 10
+
+number_of_customer_5s = 10
 
 for (var i = 0; i < number_of_customer_1s; i += 1)
 {
@@ -34,9 +40,43 @@ for (var i = 0; i < number_of_customer_2s; i += 1)
 	with (current_instance)
 	{
 		ds_list_add(request, irandom_range(0, 5))
+	}
+}
+
+for (var i = 0; i < number_of_customer_3s; i += 1)
+{
+	var current_instance = instance_create_layer(-500, -500, "Instances", obj_customer_3)
+	ds_list_add(future_customers, current_instance)
+	with (current_instance)
+	{
+		ds_list_add(request, irandom_range(0, 5))
 		ds_list_add(request, irandom_range(0, 5))
 	}
 }
+
+for (var i = 0; i < number_of_customer_4s; i += 1)
+{
+	var current_instance = instance_create_layer(-500, -500, "Instances", obj_customer_4)
+	ds_list_add(future_customers, current_instance)
+	with (current_instance)
+	{
+		ds_list_add(request, irandom_range(0, 5))
+		ds_list_add(request, irandom_range(0, 5))
+	}
+}
+
+for (var i = 0; i < number_of_customer_5s; i += 1)
+{
+	var current_instance = instance_create_layer(-500, -500, "Instances", obj_customer_5)
+	ds_list_add(future_customers, current_instance)
+	with (current_instance)
+	{
+		ds_list_add(request, irandom_range(0, 5))
+		ds_list_add(request, irandom_range(0, 5))
+		ds_list_add(request, irandom_range(0, 5))
+	}
+}
+
 
 ds_list_shuffle(future_customers)
 
@@ -54,12 +94,18 @@ function customer_reset()
 			x = -500
 			y = -500
 			ds_list_clear(request)
-			if (customer_type = 1)
+			if (customer_type == 1 or customer_type == 2)
 			{
 				ds_list_add(request, irandom_range(0, 5))
 			}
-			else if (customer_type = 2)
+			else if (customer_type == 3 or customer_type == 4)
 			{
+				ds_list_add(request, irandom_range(0, 5))
+				ds_list_add(request, irandom_range(0, 5))
+			}
+			else if (customer_type == 5)
+			{
+				ds_list_add(request, irandom_range(0, 5))
 				ds_list_add(request, irandom_range(0, 5))
 				ds_list_add(request, irandom_range(0, 5))
 			}
