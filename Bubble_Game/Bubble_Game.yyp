@@ -9,6 +9,7 @@
     {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},"order":1,},
     {"id":{"name":"spr_ingredient","path":"sprites/spr_ingredient/spr_ingredient.yy",},"order":2,},
     {"id":{"name":"spr_bubble","path":"sprites/spr_bubble/spr_bubble.yy",},"order":0,},
+    {"id":{"name":"spr_bigger","path":"sprites/spr_bigger/spr_bigger.yy",},"order":6,},
     {"id":{"name":"Bubble_States","path":"scripts/Bubble_States/Bubble_States.yy",},"order":0,},
     {"id":{"name":"spr_geyser","path":"sprites/spr_geyser/spr_geyser.yy",},"order":5,},
     {"id":{"name":"obj_geyser","path":"objects/obj_geyser/obj_geyser.yy",},"order":7,},
@@ -17,7 +18,7 @@
     {"id":{"name":"par_ingredient","path":"objects/par_ingredient/par_ingredient.yy",},"order":3,},
     {"id":{"name":"spr_milk","path":"sprites/spr_milk/spr_milk.yy",},"order":4,},
     {"id":{"name":"obj_flour","path":"objects/obj_flour/obj_flour.yy",},"order":0,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"rm_jackson","path":"rooms/rm_jackson/rm_jackson.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Android","path":"options/android/options_android.yy",},
@@ -37,7 +38,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_jackson","path":"rooms/rm_jackson/rm_jackson.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},

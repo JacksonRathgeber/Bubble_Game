@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_bubble",
   "spriteId": {
-    "name": "spr_bubble",
-    "path": "sprites/spr_bubble/spr_bubble.yy",
+    "name": "spr_bigger",
+    "path": "sprites/spr_bigger/spr_bigger.yy",
   },
   "solid": false,
   "visible": true,

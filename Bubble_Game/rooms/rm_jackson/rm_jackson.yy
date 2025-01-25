@@ -1,12 +1,12 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "Room1",
+  "name": "rm_jackson",
   "isDnd": false,
   "volume": 1.0,
   "parentRoom": null,
   "views": [
-    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
+    {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":1920,"hview":1080,"xport":0,"yport":0,"wport":1920,"hport":1080,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
@@ -28,10 +28,10 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_21756308","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_6A9B0944","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_306BF3A2","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_4EF52BB0","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_21756308","path":"rooms/rm_jackson/rm_jackson.yy",},
+    {"name":"inst_6A9B0944","path":"rooms/rm_jackson/rm_jackson.yy",},
+    {"name":"inst_306BF3A2","path":"rooms/rm_jackson/rm_jackson.yy",},
+    {"name":"inst_4EF52BB0","path":"rooms/rm_jackson/rm_jackson.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -43,7 +43,7 @@
   },
   "viewSettings": {
     "inheritViewSettings": false,
-    "enableViews": false,
+    "enableViews": true,
     "clearViewBackground": false,
     "clearDisplayBuffer": true,
   },

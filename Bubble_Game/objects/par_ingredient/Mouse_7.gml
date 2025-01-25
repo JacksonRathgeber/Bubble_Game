@@ -1,4 +1,4 @@
-/// @description
+/// @description Adding Ingredients to Geyser
 
 clicked = false;
 lst = obj_manager.active_ingredients;
