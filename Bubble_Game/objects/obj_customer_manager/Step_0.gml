@@ -25,7 +25,7 @@ if (empty_slot != noone)
 	
 	if (irandom(time_since_spawn + 50) > spawn_rate)
 	{
-		show_debug_message(ds_list_size(future_customers))
+		//show_debug_message(ds_list_size(future_customers))
 		
 		time_since_spawn = 0
 		var added_customer = ds_list_find_value(future_customers, 0)
@@ -38,7 +38,7 @@ if (empty_slot != noone)
 			array_position = obj_customer_manager.empty_slot
 			for (i = 0; i < ds_list_size(request); i += 1)
 			{
-				ds_list_add(request_filled, noone)
+				ds_list_add(request_filled, false)
 			}
 		}
 		empty_slot = noone;
