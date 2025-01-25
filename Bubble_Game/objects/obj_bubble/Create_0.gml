@@ -17,6 +17,8 @@ radius = obj_manager.mouse_radius;
 
 selected = false
 
+counter = 0
+
 alarm[0] = 1800;
 
 /* Next objectives: 

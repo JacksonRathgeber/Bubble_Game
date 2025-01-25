@@ -5,7 +5,6 @@
   "resources": [
     {"id":{"name":"spr_bubbleSet","path":"sprites/spr_bubbleSet/spr_bubbleSet.yy",},"order":7,},
     {"id":{"name":"spr_pufferfish","path":"sprites/spr_pufferfish/spr_pufferfish.yy",},"order":2,},
-    {"id":{"name":"spr_flour","path":"sprites/spr_flour/spr_flour.yy",},"order":3,},
     {"id":{"name":"spr_algae","path":"sprites/spr_algae/spr_algae.yy",},"order":3,},
     {"id":{"name":"obj_bubble","path":"objects/obj_bubble/obj_bubble.yy",},"order":0,},
     {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},"order":2,},
@@ -76,9 +75,9 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Shaders","folderPath":"folders/Shaders.yy","order":6,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy","order":1,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"fish","folderPath":"folders/Sprites/fish.yy","order":9,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":8,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"fish","folderPath":"folders/Sprites/fish.yy","order":9,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
