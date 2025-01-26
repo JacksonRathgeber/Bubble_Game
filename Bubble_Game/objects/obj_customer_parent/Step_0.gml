@@ -28,7 +28,7 @@ else if (active == ACTIVITY_STATUS.ENTERING_ANIMATION)
 	if (array_position = 0)
 	{
 		x = lerp(x, 220, lerp_amount)
-		if (x >= 200) 
+		if (x >= 218) 
 		{
 			active = ACTIVITY_STATUS.TRUE
 		}
@@ -36,7 +36,7 @@ else if (active == ACTIVITY_STATUS.ENTERING_ANIMATION)
 	else if (array_position = 1)
 	{
 		x = lerp(x, 1600, lerp_amount)
-		if (x <= 1620) 
+		if (x <= 1602) 
 		{
 			active = ACTIVITY_STATUS.TRUE
 		}
@@ -45,7 +45,7 @@ else if (active == ACTIVITY_STATUS.ENTERING_ANIMATION)
 	else if (array_position = 2)
 	{
 		x = lerp(x, 220, lerp_amount)
-		if (x >= 200) 
+		if (x >= 218) 
 		{
 			active = ACTIVITY_STATUS.TRUE
 		}
@@ -53,7 +53,7 @@ else if (active == ACTIVITY_STATUS.ENTERING_ANIMATION)
 	else if (array_position = 3)
 	{
 		x = lerp(x, 1600, lerp_amount)
-		if (x <= 1620) 
+		if (x <= 1602) 
 		{
 			active = ACTIVITY_STATUS.TRUE
 		}

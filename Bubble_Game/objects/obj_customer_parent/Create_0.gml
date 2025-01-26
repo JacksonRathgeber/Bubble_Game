@@ -12,7 +12,7 @@ enum ACTIVITY_STATUS
 
 active = ACTIVITY_STATUS.FALSE
 
-lerp_amount = .35
+lerp_amount = .15
 
 array_position = noone
 
