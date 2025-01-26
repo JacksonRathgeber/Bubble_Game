@@ -20,6 +20,17 @@ if (instance_place(x,y,obj_geyser)){
 	if (!_added){
 		audio_play_sound(Add_Ingredient, 0, false);
 		ds_list_add(obj_manager.active_ingredients, ingredient_ind);
+		if (instance_exists(obj_tutorialManager)){
+			if obj_tutorialManager.progress == 3{
+				obj_tutorialManager.Next()
+			}
+			if obj_tutorialManager.progress == 7{
+				obj_tutorialManager.ingredientsIn += 1
+				if (obj_tutorialManager.ingredientsIn >= 3){
+					obj_tutorialManager.Next()
+				}
+			}
+		}
 	}
 	
 	var _debug_str = "Geyser contains: ";

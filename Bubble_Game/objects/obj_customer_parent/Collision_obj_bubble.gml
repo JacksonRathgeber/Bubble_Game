@@ -7,6 +7,8 @@ for (i = 0; i < ds_list_size(request_filled); i++)
 	{
 		ds_list_replace(request_filled, i, true)
 		instance_destroy(other)
+		//plays the COMPLETED SOUND
+		audio_play_sound(Bubble_Given, 0, false);
 		break
 	}
 }

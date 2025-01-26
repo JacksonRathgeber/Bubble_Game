@@ -107,7 +107,13 @@ if (active == ACTIVITY_STATUS.TRUE)
 	}
 	
 	//checks if you lose:
-	timer++;
+	if (room == rm_tutorial){
+		if (obj_tutorialManager.progress >= 9){
+			timer++;
+		}
+	}else{
+		timer++;
+	}
 	if (timer > time_limit)
 	{
 		request_fail()
