@@ -13,6 +13,10 @@ ingredients = ["algae", "coral", "plankton", "kelp", "pearl", "plastic"];
 bubble_spawn_timer = 50;
 bubble_spawn_tick = 0;
 
+ended = false;
+
+global.score = 0
+
 function newBubble(){
 	
 	if(ds_list_size(active_ingredients)>=1){
@@ -26,4 +30,11 @@ function newBubble(){
 	
 	//show_debug_message(ds_list_size(active_ingredients));
 	
+}
+
+function EndGame(){
+	if (!ended){
+		instance_create_depth(x,y,-1000,obj_endGameManager)
+		ended = true;
+	}
 }

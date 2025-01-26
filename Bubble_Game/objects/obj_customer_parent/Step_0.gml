@@ -1,3 +1,4 @@
+if (!obj_manager.ended){
 if (active == ACTIVITY_STATUS.ENTERING)
 {
 	if (array_position = 0)
@@ -112,4 +113,4 @@ if (active == ACTIVITY_STATUS.TRUE)
 		request_fail()
 	}
 }
-
+}

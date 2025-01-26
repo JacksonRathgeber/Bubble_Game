@@ -28,6 +28,7 @@
     {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},"order":1,},
     {"id":{"name":"obj_geyser","path":"objects/obj_geyser/obj_geyser.yy",},"order":7,},
     {"id":{"name":"obj_kelp","path":"objects/obj_kelp/obj_kelp.yy",},"order":1,},
+    {"id":{"name":"obj_endGameManager","path":"objects/obj_endGameManager/obj_endGameManager.yy",},"order":11,},
     {"id":{"name":"obj_plastic","path":"objects/obj_plastic/obj_plastic.yy",},"order":2,},
     {"id":{"name":"par_ingredient","path":"objects/par_ingredient/par_ingredient.yy",},"order":3,},
     {"id":{"name":"spr_kelp","path":"sprites/spr_kelp/spr_kelp.yy",},"order":1,},

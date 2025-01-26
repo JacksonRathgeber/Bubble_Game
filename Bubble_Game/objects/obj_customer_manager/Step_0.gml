@@ -1,3 +1,5 @@
+if (!obj_manager.ended){
+
 if (ds_list_size(future_customers) = 0)
 {
 	customer_reset()
@@ -58,4 +60,4 @@ if (keyboard_check_pressed(ord("X")))
 	
 	show_debug_message(_active_count)
 }
-
+}
