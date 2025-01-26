@@ -16,6 +16,8 @@ bubble_spawn_tick = 0;
 ended = false;
 
 global.score = 0
+global.served = 0
+global.missed = 0
 global.bubblePopSystem = part_system_create();
 part_system_depth(global.bubblePopSystem, 0);
 
@@ -26,6 +28,8 @@ part_type_alpha2(_p, 0.75, 0);
 part_type_color2(_p, c_white, c_grey);
 part_type_size(_p,0.05,0.05,0.15,0);
 global.popPart = _p;
+
+global.font = fnt_paybread
 
 function newBubble(){
 	

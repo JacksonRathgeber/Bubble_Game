@@ -35,6 +35,8 @@ function request_complete()
 	y = -500
 	timer = 0
 	array_position = noone
+	global.served += 1
+	global.score += 100
 }
 
 function request_fail()
@@ -47,4 +49,6 @@ function request_fail()
 	y = -500
 	timer = 0
 	array_position = noone
+	global.missed += 1
+	global.score -= 50
 }
