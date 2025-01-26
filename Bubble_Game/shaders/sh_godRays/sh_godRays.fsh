@@ -26,7 +26,7 @@ float rayStrength(vec2 raySource, vec2 rayRefDirection, vec2 coord, float seedA,
 
 void main()
 {
-	vec2 coord = vec2(fragCoord.x+1500,fragCoord.y);
+	vec2 coord = vec2(fragCoord.x,fragCoord.y);
 	
 	
 	// Set the parameters of the sun rays
