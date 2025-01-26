@@ -10,18 +10,18 @@ empty_slot = noone
 
 
 time_since_spawn = 0
-spawn_rate = 90
+spawn_rate = 30
 
 
-number_of_customer_1s = 8
+number_of_customer_1s = 10
 
 number_of_customer_2s = 10
 
-number_of_customer_3s = 10
+number_of_customer_3s = 8
 
-number_of_customer_4s = 10
+number_of_customer_4s = 8
 
-number_of_customer_5s = 10
+number_of_customer_5s = 5
 
 for (var i = 0; i < number_of_customer_1s; i += 1)
 {

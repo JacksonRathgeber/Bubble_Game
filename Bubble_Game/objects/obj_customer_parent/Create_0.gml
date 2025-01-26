@@ -21,6 +21,10 @@ timer = 0
 time_limit = (30 + random_range(-5, 5)) * 60
 
 
+speech_bubble_offset = 10
+speech_bubble_y_offset = 30
+
+
 function request_complete()
 {
 	//reward

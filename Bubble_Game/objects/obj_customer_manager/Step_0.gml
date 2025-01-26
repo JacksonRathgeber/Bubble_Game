@@ -22,7 +22,18 @@ if (empty_slot != noone)
 {
 	time_since_spawn += 1
 	
-	if (irandom(time_since_spawn + 50) > spawn_rate)
+	var time_left = obj_time.seconds_left - 30
+	
+	if (time_left < 0)
+	{
+		time_left = 0
+	}
+	
+	var spawn_offset = 2 * (time_left - 30)
+	
+	show_debug_message(spawn_offset)
+	
+	if (irandom(time_since_spawn + 50) > spawn_rate + spawn_offset)
 	{
 		//show_debug_message(ds_list_size(future_customers))
 		
@@ -45,7 +56,7 @@ if (empty_slot != noone)
 }
 
 
-
+/*
 if (keyboard_check_pressed(ord("X")))
 {
 	var _active_count = 0
@@ -60,4 +71,5 @@ if (keyboard_check_pressed(ord("X")))
 	
 	show_debug_message(_active_count)
 }
-}
+*/
+
