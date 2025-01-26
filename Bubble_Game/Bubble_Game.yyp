@@ -43,6 +43,7 @@
     {"id":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},"order":3,},
     {"id":{"name":"par_ingredient","path":"objects/par_ingredient/par_ingredient.yy",},"order":3,},
     {"id":{"name":"spr_kelp","path":"sprites/spr_kelp/spr_kelp.yy",},"order":1,},
+    {"id":{"name":"obj_tutorialButton","path":"objects/obj_tutorialButton/obj_tutorialButton.yy",},"order":18,},
     {"id":{"name":"obj_algae","path":"objects/obj_algae/obj_algae.yy",},"order":0,},
     {"id":{"name":"obj_pearl","path":"objects/obj_pearl/obj_pearl.yy",},"order":5,},
     {"id":{"name":"Bubble_Formed","path":"sounds/Bubble_Formed/Bubble_Formed.yy",},"order":4,},
