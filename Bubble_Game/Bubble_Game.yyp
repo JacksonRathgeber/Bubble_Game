@@ -24,7 +24,6 @@
     {"id":{"name":"Pulling_Sound","path":"sounds/Pulling_Sound/Pulling_Sound.yy",},"order":3,},
     {"id":{"name":"spr_ingredient","path":"sprites/spr_ingredient/spr_ingredient.yy",},"order":2,},
     {"id":{"name":"spr_bubble","path":"sprites/spr_bubble/spr_bubble.yy",},"order":6,},
-    {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},"order":15,},
     {"id":{"name":"Greeting6","path":"sounds/Greeting6/Greeting6.yy",},"order":10,},
     {"id":{"name":"Bubble_States","path":"scripts/Bubble_States/Bubble_States.yy",},"order":0,},
     {"id":{"name":"Bubble_Given","path":"sounds/Bubble_Given/Bubble_Given.yy",},"order":12,},
