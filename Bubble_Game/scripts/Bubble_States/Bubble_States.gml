@@ -1,7 +1,7 @@
 function Bubble_Free(){
 	
 	// destroy when off screen
-	if (y<-sprite_height/2){
+	if (y<-sprite_height*2){
 		instance_destroy();
 	}
 	
