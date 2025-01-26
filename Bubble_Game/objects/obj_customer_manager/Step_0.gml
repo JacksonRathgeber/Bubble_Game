@@ -31,7 +31,7 @@ if (empty_slot != noone)
 		
 		with (added_customer)
 		{
-			active = true
+			active = ACTIVITY_STATUS.ENTERING
 			array_position = obj_customer_manager.empty_slot
 			for (i = 0; i < ds_list_size(request); i += 1)
 			{

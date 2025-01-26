@@ -2,7 +2,17 @@ request = ds_list_create()
 
 request_filled = ds_list_create()
 
-active = false
+enum ACTIVITY_STATUS
+{
+	FALSE,
+	ENTERING,
+	ENTERING_ANIMATION,
+	TRUE
+}
+
+active = ACTIVITY_STATUS.FALSE
+
+lerp_amount = .35
 
 array_position = noone
 
@@ -16,7 +26,7 @@ function request_complete()
 	//reward
 	ds_list_add(obj_customer_manager.past_customers, id)
 	array_set(obj_customer_manager.active_customers, array_position, noone)
-	active = false
+	active = ACTIVITY_STATUS.FALSE
 	x = -500
 	y = -500
 	timer = 0
@@ -28,7 +38,7 @@ function request_fail()
 	//punishment
 	ds_list_add(obj_customer_manager.past_customers, id)
 	array_set(obj_customer_manager.active_customers, array_position, noone)
-	active = false
+	active = ACTIVITY_STATUS.FALSE
 	x = -500
 	y = -500
 	timer = 0
