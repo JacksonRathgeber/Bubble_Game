@@ -25,7 +25,10 @@ audio_play_sound(Bubble_Formed, 0, false,1,0,random_range(0.8,1.2));
 
 /* Next objectives: 
 Start and End Screens
-Game Design: Forcing choice regarding ingredients
+
+Game Design:
+Forcing choice regarding ingredients
+Points scale with customer satisfaction
 
 
 Conveyance: 
@@ -33,6 +36,5 @@ Communicate rules to player
 Tell player what ingredients are currently in the geyser
 Make bubbles more distinct from each other
 Visually link bubbles to ingredients
-Indicate when customers are getting grumpy (meter)
 
 */

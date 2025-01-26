@@ -6,9 +6,7 @@ active_ingredients = ds_list_create();
 
 mouse_radius = 100;
 
-colors = [c_red, c_fuchsia, c_yellow, c_green, c_white, c_dkgray];
-
-ingredients = ["algae", "coral", "plankton", "kelp", "pearl", "plastic"];
+ingredients = [spr_pearl, spr_kelp, spr_plankton, spr_plastic, spr_algae, spr_coral];
 
 bubble_spawn_timer = 50;
 bubble_spawn_tick = 0;
