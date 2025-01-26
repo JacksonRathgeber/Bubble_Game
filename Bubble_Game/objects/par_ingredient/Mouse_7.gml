@@ -2,6 +2,8 @@
 
 clicked = false;
 just_released = true;
+global.ingredientSelected = false;
+
 
 obj_manager.active_ingredients = obj_manager.active_ingredients;
 

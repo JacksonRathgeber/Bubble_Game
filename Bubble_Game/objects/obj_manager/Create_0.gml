@@ -4,7 +4,7 @@ randomize();
 
 active_ingredients = ds_list_create();
 
-mouse_radius = 150;
+mouse_radius = 100;
 
 colors = [c_red, c_fuchsia, c_yellow, c_green, c_white, c_dkgray];
 
@@ -14,6 +14,8 @@ bubble_spawn_timer = 50;
 bubble_spawn_tick = 0;
 
 ended = false;
+
+global.ingredientSelected = false;
 
 global.score = 0
 global.bubblePopSystem = part_system_create();

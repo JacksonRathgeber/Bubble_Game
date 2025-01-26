@@ -9,5 +9,4 @@ start_y = y;
 
 lerp_val = 0.2;
 
-image_xscale = 0.125
-image_yscale = 0.125
+image_speed = 0;
