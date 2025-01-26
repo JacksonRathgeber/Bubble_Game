@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_tutorialButton",
   "spriteId": {
-    "name": "spr_menuButton",
-    "path": "sprites/spr_menuButton/spr_menuButton.yy",
+    "name": "spr_tutorial_button",
+    "path": "sprites/spr_tutorial_button/spr_tutorial_button.yy",
   },
   "solid": false,
   "visible": true,

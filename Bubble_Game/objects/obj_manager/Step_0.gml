@@ -18,9 +18,11 @@ if (!ended){
 	}
 	
 }
+/*
 if (keyboard_check_pressed(ord("D"))){
 	EndGame()
 }
+*/
 
 // Add / Track ingredients in geyser
 

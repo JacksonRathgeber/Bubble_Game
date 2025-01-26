@@ -4,6 +4,7 @@ draw_set_color(c_dkgrey)
 draw_set_alpha(alpha)
 draw_rectangle(0,0,room_width,room_height,false)
 draw_set_alpha(1)
+draw_set_valign(fa_center)
 if alpha < alphaMax{
 	alpha += 0.025
 }else{
