@@ -21,7 +21,7 @@ alarm[0] = 1800;
 
 image_xscale = 0.4;
 image_yscale = 0.4;
-image_alpha = 0.75;
+//image_alpha = 0.75;
 //Plays a "forming noise" when the bubble is created
 audio_play_sound(Bubble_Formed, 0, false,1,0,random_range(0.8,1.2));
 
