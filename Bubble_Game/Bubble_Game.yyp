@@ -76,6 +76,7 @@
     {"id":{"name":"obj_customer_manager","path":"objects/obj_customer_manager/obj_customer_manager.yy",},"order":4,},
     {"id":{"name":"rm_fishing","path":"rooms/rm_fishing/rm_fishing.yy",},"order":1,},
     {"id":{"name":"spr_fishing_placeholder","path":"sprites/spr_fishing_placeholder/spr_fishing_placeholder.yy",},"order":0,},
+    {"id":{"name":"menu_Music","path":"sounds/menu_Music/menu_Music.yy",},"order":17,},
     {"id":{"name":"spr_whirlpool","path":"sprites/spr_whirlpool/spr_whirlpool.yy",},"order":14,},
     {"id":{"name":"obj_vfx","path":"objects/obj_vfx/obj_vfx.yy",},"order":10,},
     {"id":{"name":"obj_customer_2","path":"objects/obj_customer_2/obj_customer_2.yy",},"order":8,},
