@@ -27,10 +27,6 @@ audio_play_sound(Bubble_Formed, 0, false,1,0,random_range(0.8,1.2));
 
 /* Next objectives: 
 
-Bubble manager (ds_list)
-Write code for mouse dragging (mouse as target + lerp for smoothness)
-Dragged object tracked in manager
-Dragged items lerp back to original positions (except bubbles)
-Customer / Order list in manager
+Game Design: Forcing choice regarding ingredients
 
 */

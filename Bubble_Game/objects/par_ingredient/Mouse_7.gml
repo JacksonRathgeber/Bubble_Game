@@ -1,6 +1,8 @@
 /// @description Adding Ingredients to Geyser
 
 clicked = false;
+just_released = true;
+
 obj_manager.active_ingredients = obj_manager.active_ingredients;
 
 if (instance_place(x,y,obj_geyser)){
@@ -25,3 +27,6 @@ if (instance_place(x,y,obj_geyser)){
 	}
 	show_debug_message(_debug_str);
 }
+
+x = start_x;
+y = start_y;
