@@ -10,7 +10,7 @@ empty_slot = noone
 
 
 time_since_spawn = 0
-spawn_rate = 2
+spawn_rate = 90
 
 
 number_of_customer_1s = 8
