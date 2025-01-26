@@ -39,6 +39,8 @@ function request_complete()
 	//plays the COMPLETED SOUND
 	audio_play_sound(Bubble_Given, 0, false);
 	
+	global.served += 1
+	global.score += 100
 }
 
 function request_fail()
@@ -54,4 +56,6 @@ function request_fail()
 	
 	//plays the FRUSTRATED Sound
 	audio_play_sound(Frustrated_Fish, 0, false);
+	global.missed += 1
+	global.score -= 50
 }
