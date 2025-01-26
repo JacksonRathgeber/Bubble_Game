@@ -35,6 +35,10 @@ function request_complete()
 	y = -500
 	timer = 0
 	array_position = noone
+	
+	//plays the COMPLETED SOUND
+	audio_play_sound(Bubble_Given, 0, false);
+	
 }
 
 function request_fail()
@@ -47,4 +51,7 @@ function request_fail()
 	y = -500
 	timer = 0
 	array_position = noone
+	
+	//plays the FRUSTRATED Sound
+	audio_play_sound(Frustrated_Fish, 0, false);
 }

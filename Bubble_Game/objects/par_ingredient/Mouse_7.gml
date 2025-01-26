@@ -16,7 +16,7 @@ if (instance_place(x,y,obj_geyser)){
 		}
 	}
 	if (!_added){
-	
+		audio_play_sound(Add_Ingredient, 0, false);
 		ds_list_add(obj_manager.active_ingredients, ingredient_ind);
 	}
 	

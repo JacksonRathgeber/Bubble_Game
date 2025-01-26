@@ -5,7 +5,9 @@ if (ds_list_size(future_customers) = 0)
 	customer_reset()
 }
 
-
+//List of all possible fish greetings
+greetingList = [Greeting1, Greeting2, Greeting3, Greeting4, Greeting5, Greeting6];
+	
 empty_slot = noone
 
 for (i = 0; i < active_customer_max; i += 1)
@@ -36,6 +38,9 @@ if (empty_slot != noone)
 	if (irandom(time_since_spawn + 50) > spawn_rate + spawn_offset)
 	{
 		//show_debug_message(ds_list_size(future_customers))
+		
+		//Play the ANIMALESE
+		audio_play_sound(greetingList[random_range(0,5)], 0, false, 0.2);
 		
 		time_since_spawn = 0
 		var added_customer = ds_list_find_value(future_customers, 0)
