@@ -2,6 +2,8 @@ active_customer_max = 4
 
 active_customers = array_create(active_customer_max, noone)
 
+possible_locations = ds_list_create()
+
 future_customers = ds_list_create()
 
 past_customers = ds_list_create()

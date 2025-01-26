@@ -19,10 +19,13 @@ array_position = noone
 
 timer = 0
 time_limit = (30 + random_range(-5, 5)) * 60
+timer_color = c_green
 
 
 speech_bubble_offset = 10
 speech_bubble_y_offset = 30
+
+bubble_icon_scale = 1/7
 
 
 function request_complete()

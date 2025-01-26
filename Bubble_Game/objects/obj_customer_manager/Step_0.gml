@@ -8,13 +8,25 @@ if (ds_list_size(future_customers) = 0)
 
 empty_slot = noone
 
+ds_list_clear(possible_locations)
+
 for (i = 0; i < active_customer_max; i += 1)
 {
 	if (array_get(active_customers, i) == noone)
 	{
+		/*
 		empty_slot = i
 		break
+		*/
+		ds_list_add(possible_locations, i)
 	}
+}
+
+if (ds_list_size(possible_locations) > 0)
+{
+	var _list_size = ds_list_size(possible_locations)
+	var _random_spot = irandom_range(0, _list_size - 1)
+	empty_slot = ds_list_find_value(possible_locations, _random_spot)
 }
 
 
@@ -31,7 +43,7 @@ if (empty_slot != noone)
 	
 	var spawn_offset = 2 * (time_left - 30)
 	
-	show_debug_message(spawn_offset)
+	//show_debug_message(spawn_offset)
 	
 	if (irandom(time_since_spawn + 50) > spawn_rate + spawn_offset)
 	{

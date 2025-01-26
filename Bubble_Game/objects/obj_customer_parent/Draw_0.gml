@@ -1,6 +1,26 @@
 if (active == ACTIVITY_STATUS.TRUE or active == ACTIVITY_STATUS.ENTERING or active == ACTIVITY_STATUS.ENTERING_ANIMATION)
 {
 	draw_self()
+	
+	
+	if (timer/time_limit < 1/3)
+	{
+		timer_color = #03fc13
+	}
+	else if (timer/time_limit < 2/3)
+	{
+		timer_color = c_yellow
+	}
+	else
+	{
+		timer_color = c_red
+	}
+	
+	var portion_of_time_passed = 1 - (timer/time_limit)
+	
+	draw_rectangle_color(x - .5 * sprite_width, y + .5 * sprite_height + 8, 
+		x - .5 * sprite_width + sprite_width * portion_of_time_passed, y + .5 * sprite_height + 20, 
+		timer_color, timer_color, timer_color, timer_color, false)
 
 	/*
 	if (active = ACTIVITY_STATUS.TRUE)

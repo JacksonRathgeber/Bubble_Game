@@ -9,17 +9,17 @@ if (active == ACTIVITY_STATUS.ENTERING)
 	else if (array_position = 1)
 	{
 		x = 1970
-		y = 560
+		y = 600
 	}
 	else if (array_position = 2)
 	{
 		x = -50
-		y = 250
+		y = 300
 	}
 	else if (array_position = 3)
 	{
 		x = 1970
-		y = 200
+		y = 300
 	}
 	active = ACTIVITY_STATUS.ENTERING_ANIMATION
 }
@@ -44,16 +44,16 @@ else if (active == ACTIVITY_STATUS.ENTERING_ANIMATION)
 	}
 	else if (array_position = 2)
 	{
-		x = lerp(x, 350, lerp_amount)
-		if (x >= 320) 
+		x = lerp(x, 220, lerp_amount)
+		if (x >= 200) 
 		{
 			active = ACTIVITY_STATUS.TRUE
 		}
 	}
 	else if (array_position = 3)
 	{
-		x = lerp(x, 1650, lerp_amount)
-		if (x <= 1670) 
+		x = lerp(x, 1600, lerp_amount)
+		if (x <= 1620) 
 		{
 			active = ACTIVITY_STATUS.TRUE
 		}
@@ -69,17 +69,17 @@ else if (active == ACTIVITY_STATUS.TRUE)
 	else if (array_position = 1)
 	{
 		x = 1600
-		y = 560
+		y = 600
 	}
 	else if (array_position = 2)
 	{
-		x = 350
-		y = 250
+		x = 220
+		y = 300
 	}
 	else if (array_position = 3)
 	{
-		x = 1650
-		y = 200
+		x = 1600
+		y = 300
 	}
 	else 
 	{
