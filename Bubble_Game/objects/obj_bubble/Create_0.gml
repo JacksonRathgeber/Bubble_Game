@@ -32,6 +32,7 @@ Conveyance:
 Communicate rules to player
 Tell player what ingredients are currently in the geyser
 Make bubbles more distinct from each other
-Visually link 
+Visually link bubbles to ingredients
+Indicate when customers are getting grumpy (meter)
 
 */

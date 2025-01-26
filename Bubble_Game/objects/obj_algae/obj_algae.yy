@@ -30,7 +30,7 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"ingredient_ind","path":"objects/par_ingredient/par_ingredient.yy",},"objectId":{"name":"par_ingredient","path":"objects/par_ingredient/par_ingredient.yy",},"value":"2",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"ingredient_ind","path":"objects/par_ingredient/par_ingredient.yy",},"objectId":{"name":"par_ingredient","path":"objects/par_ingredient/par_ingredient.yy",},"value":"4",},
   ],
   "parent": {
     "name": "Ingredient Objects",

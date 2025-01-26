@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "Bubble_Game",
   "resources": [
+    {"id":{"name":"obj_whirlpool","path":"objects/obj_whirlpool/obj_whirlpool.yy",},"order":12,},
     {"id":{"name":"spr_plastic","path":"sprites/spr_plastic/spr_plastic.yy",},"order":2,},
     {"id":{"name":"spr_bubbleSet","path":"sprites/spr_bubbleSet/spr_bubbleSet.yy",},"order":7,},
     {"id":{"name":"spr_pufferfish","path":"sprites/spr_pufferfish/spr_pufferfish.yy",},"order":2,},
@@ -61,6 +62,7 @@
     {"id":{"name":"obj_customer_manager","path":"objects/obj_customer_manager/obj_customer_manager.yy",},"order":4,},
     {"id":{"name":"rm_fishing","path":"rooms/rm_fishing/rm_fishing.yy",},"order":1,},
     {"id":{"name":"spr_fishing_placeholder","path":"sprites/spr_fishing_placeholder/spr_fishing_placeholder.yy",},"order":0,},
+    {"id":{"name":"spr_whirlpool","path":"sprites/spr_whirlpool/spr_whirlpool.yy",},"order":14,},
     {"id":{"name":"obj_vfx","path":"objects/obj_vfx/obj_vfx.yy",},"order":10,},
     {"id":{"name":"obj_customer_2","path":"objects/obj_customer_2/obj_customer_2.yy",},"order":8,},
     {"id":{"name":"Greeting2","path":"sounds/Greeting2/Greeting2.yy",},"order":6,},
