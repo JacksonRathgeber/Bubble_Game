@@ -31,8 +31,26 @@ bubble_icon_scale = 1/7
 function request_complete()
 {
 	//reward
-	ds_list_add(obj_customer_manager.past_customers, id)
-	array_set(obj_customer_manager.active_customers, array_position, noone)
+	if (room != rm_tutorial){
+		ds_list_add(obj_customer_manager.past_customers, id)
+		array_set(obj_customer_manager.active_customers, array_position, noone)
+	}else{
+		if (obj_tutorialManager.progress == 5){
+			obj_tutorialManager.Next()
+		}
+		if (obj_tutorialManager.progress == 8){
+			obj_tutorialManager.served += 1
+			if (obj_tutorialManager.served >= 2){
+				obj_tutorialManager.Next()
+			}
+		}
+		else if (obj_tutorialManager.progress == 9){
+			obj_tutorialManager.Next()
+		}
+		else if (obj_tutorialManager.progress == 10){
+			obj_tutorialManager.Next()
+		}
+	}
 	active = ACTIVITY_STATUS.FALSE
 	x = -500
 	y = -500
@@ -40,7 +58,7 @@ function request_complete()
 	array_position = noone
 	
 	//plays the COMPLETED SOUND
-	audio_play_sound(Bubble_Given, 0, false);
+	//audio_play_sound(Bubble_Given, 0, false);
 	
 	global.served += 1
 	global.score += 100
@@ -57,6 +75,14 @@ function request_fail()
 	timer = 0
 	array_position = noone
 	
+	if (room == rm_tutorial){
+		if (obj_tutorialManager.progress == 9){
+			obj_tutorialManager.Next()
+		}
+		else if (obj_tutorialManager.progress == 10){
+			obj_tutorialManager.Next()
+		}
+	}
 	//plays the FRUSTRATED Sound
 	audio_play_sound(Frustrated_Fish, 0, false);
 	global.missed += 1
