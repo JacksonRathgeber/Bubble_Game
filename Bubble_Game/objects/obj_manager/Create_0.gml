@@ -3,6 +3,8 @@
 randomize();
 
 active_ingredients = ds_list_create();
+ingredient_countdowns = ds_list_create();
+ingredient_duration = 1200;
 
 mouse_radius = 100;
 

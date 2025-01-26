@@ -33,7 +33,7 @@ if (empty_slot != noone)
 	
 	var spawn_offset = 2 * (time_left - 30)
 	
-	show_debug_message(spawn_offset)
+	//show_debug_message(spawn_offset)
 	
 	if (irandom(time_since_spawn + 50) > spawn_rate + spawn_offset)
 	{
