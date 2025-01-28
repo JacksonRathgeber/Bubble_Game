@@ -4,7 +4,11 @@
 
 audio_play_sound(Deep_Water_Ambience,0,true);
 //MUSIC IS NOT CURRENTLY MUTED TO PREVENT HEADACHES
-audio_play_sound(Main_Music,0,true);
+audio_stop_all()
+if !audio_is_playing(Main_Music){
+	audio_play_sound(Main_Music,0,true);
+}
+
 
 
 //List of all possible fish greetings

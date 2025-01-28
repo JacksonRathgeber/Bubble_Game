@@ -26,3 +26,4 @@ if (keyboard_check_pressed(ord("D"))){
 
 // Add / Track ingredients in geyser
 
+window_set_size(browser_width,browser_height)

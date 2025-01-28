@@ -11,11 +11,13 @@ if (instance_place(x,y,obj_geyser)){
 		
 	// Check if ingredient is already in geyser, add if not
 	var _added = false;
+	var ind = -1;
 	for (var i = 0; i < ds_list_size(obj_manager.active_ingredients); i++){
 		
 		if (obj_manager.active_ingredients[| i] == ingredient_ind){
 		
 			_added = true;
+			ind = i
 		}
 	}
 	if (!_added){
@@ -32,6 +34,11 @@ if (instance_place(x,y,obj_geyser)){
 					obj_tutorialManager.Next()
 				}
 			}
+		}
+	}else{
+		if (ind != -1){
+			audio_play_sound(Add_Ingredient, 0, false);
+			ds_list_replace(obj_manager.ingredient_countdowns,ind,obj_manager.ingredient_duration)
 		}
 	}
 }

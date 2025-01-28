@@ -33,6 +33,8 @@ global.popPart = _p;
 
 global.font = fnt_paybread
 
+
+
 function newBubble(){
 	
 	if(ds_list_size(active_ingredients)>=1){
